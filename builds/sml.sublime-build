@@ -1,0 +1,5 @@
+{
+	"cmd": ["sml", "$file"],
+	"selector": "source.sml",
+	"path": "/usr/local/Cellar/smlnj/110.75/bin/:$PATH"
+}

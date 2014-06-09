@@ -1,0 +1,95 @@
+[
+  // easymotion
+  {
+    "keys": ["super+n", "<character>"],
+    "command": "easy_motion",
+    "args": {"select_text": false}
+  },
+  {
+    "keys": ["super+m", "<character>"],
+    "command": "easy_motion",
+    "args": {"select_text": true}
+  },
+  {
+    "keys": ["super+n", "enter"],
+    "command": "easy_motion",
+    "args": {"select_text": false, "character": "enter"}
+  },
+  {
+    "keys": ["super+m", "enter"],
+    "command": "easy_motion",
+    "args": {"select_text": true, "character": "enter"}
+  },
+  {
+    "keys": ["super+v"], "command": "paste_and_indent"
+  },
+  {
+    "keys": ["super+i"],
+    "command": "show_panel",
+    "args": { "panel": "find", "in_selection": true }
+  },
+  // Auto-pair code quotes
+  { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$0`"}, "context":
+    [
+      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+      { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|>|$)", "match_all": true },
+      { "key": "preceding_text", "operator": "not_regex_contains", "operand": "['a-zA-Z0-9_]$", "match_all": true },
+      { "key": "eol_selector", "operator": "not_equal", "operand": "string.quoted.template", "match_all": true }
+    ]
+  },
+  { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`${0:$SELECTION}`"}, "context":
+    [
+      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
+    ]
+  },
+  { "keys": ["`"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
+    [
+      { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+      { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+      { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true }
+    ]
+  },
+  // macros
+  {
+    "keys": ["super+k", "f"],
+    "command": "run_macro_file",
+    "args": {"file": "Packages/User/Macros/wrapWithFunc.sublime-macro"}
+  },
+  {
+    "keys": ["super+k", "c"],
+    "command": "run_macro_file",
+    "args": {"file": "Packages/User/Macros/wrapWithConsoleLog.sublime-macro"}
+  },
+  {
+    "keys": ["super+,"],
+    "command": "run_macro_file",
+    "args": {"file": "Packages/User/Macros/EolComma.sublime-macro"}
+  },
+  {
+    "keys": ["super+shift+,"],
+    "command": "run_macro_file",
+    "args": {"file": "Packages/User/Macros/paramComma.sublime-macro"}
+  },
+  {
+    "keys": ["super+;"],
+    "command": "run_macro_file",
+    "args": {"file": "Packages/User/Macros/EolSemiColon.sublime-macro"}
+  },
+  {
+    "keys": ["command+shift+r"],
+    "command": "browser_refresh",
+    "args": {
+      "auto_save": true,
+      "delay": 0,
+      "activate_browser": false,
+      "browser_name" : "Google Chrome"
+    }
+  },
+  {
+    "keys": ["super+k", "super+m"],
+    "command": "run_macro_file",
+    "args": {"file": "Packages/User/Macros/tempMark.sublime-macro"}
+  }
+]

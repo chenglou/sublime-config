@@ -1,0 +1,39 @@
+{
+	"auto_complete_delay": 0,
+	"auto_complete_selector": "source",
+	"caret_style": "phase",
+	"color_scheme": "Packages/Colorcoder/Tomorrow-Night (SL) (Colorcode).tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".DS_Store"
+	],
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Sublimerge Pro",
+		"Markdown",
+		"Vintage",
+		"Sass",
+		"VintageLines"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"open_files_in_new_window": false,
+	"original_color_scheme": "Packages/User/Tomorrow-Night (SL).tmTheme",
+	"rulers":
+	[
+		80
+	],
+	"show_tab_close_buttons": false,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": false,
+	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true
+}

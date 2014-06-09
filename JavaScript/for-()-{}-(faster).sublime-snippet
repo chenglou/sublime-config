@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[for (var ${1:i} = ${2:Things}.length - 1; ${1:i} >= ${3:0}; ${1:i}--) {
+  ${2:Things}[${1:i}]$4
+}
+]]></content>
+    <tabTrigger>for-</tabTrigger>
+    <scope>source.js</scope>
+    <description>for (…) {…} (Improved Native For-Loop)</description>
+</snippet>

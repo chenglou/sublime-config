@@ -1,0 +1,7 @@
+{
+	"lightness": 0.60,
+	"saturation": 0.50,
+  "auto_apply_on_scheme_change": false,
+  "disabled_for": ["md"],
+  "max_size": 100000
+}

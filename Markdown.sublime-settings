@@ -1,0 +1,14 @@
+{
+	"auto_complete_selector": "source, meta.tag - punctuation.definition.tag.begin, text.html.markdown",
+	"extensions":
+	[
+		"mdown",
+		"md",
+		"txt"
+	],
+	"font_size": 12,
+	"spell_check": true,
+	"tab_size": 2,
+	"trim_trailing_white_space_on_save": true,
+	"wrap_width": 80
+}

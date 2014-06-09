@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[for (var ${1:key} in ${2:obj}) {
+  if (!${2:obj}.hasOwnProperty(${1:key})) {
+    continue;
+  }
+  $3
+}
+]]></content>
+    <tabTrigger>forin-</tabTrigger>
+    <scope>source.js</scope>
+    <description>for in loop</description>
+</snippet>

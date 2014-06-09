@@ -1,0 +1,32 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Better CoffeeScript",
+		"Browser Refresh",
+		"CoffeeComplete Plus (Autocompletion)",
+		"Colorcoder",
+		"ColorPicker",
+		"EasyMotion",
+		"Emmet",
+		"Expand Selection to Function (JavaScript)",
+		"Expand Selection to Quotes",
+		"GitCommitMsg",
+		"HTML-CSS-JS Prettify",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Package Control",
+		"Sass",
+		"SerializedDataConverter",
+		"Smart Match",
+		"SublimeLinter",
+		"SublimeLinter-json",
+		"SublimeLinter-jsxhint",
+		"Sublimerge Pro",
+		"TodoReview",
+		"Tomorrow Color Schemes",
+		"VintageLines",
+		"Vintageous"
+	]
+}

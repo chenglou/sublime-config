@@ -1,0 +1,8 @@
+[
+  {
+    "command": "next_bookmark"
+  },
+  {
+    "command": "toggle_bookmark"
+  }
+]

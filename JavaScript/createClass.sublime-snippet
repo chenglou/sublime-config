@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[var ${1:App} = React.createClass({
+  render: function() {
+    return (
+      <div>
+        ${2}
+      </div>
+    );
+  }
+});]]></content>
+    <tabTrigger>cc</tabTrigger>
+    <scope>source.js, source.jsx</scope>
+    <description>createClass</description>
+</snippet>
