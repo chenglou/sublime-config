@@ -1,6 +1,0 @@
-{
-  "host": "dev585.prn2.facebook.com",  // DNS, IP or alias of your sandbox
-  "proj": "~/www",        // ~/www, ~/fbcode, ~/dataswarm, etc.
-  "lint_on_save": true,   // run arc lint on save?
-  "grep_engine": "tbgs"   // tbgs, fbgs or any other to use with the project
-}
