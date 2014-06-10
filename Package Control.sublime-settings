@@ -20,6 +20,8 @@
 		"Sass",
 		"SerializedDataConverter",
 		"Smart Match",
+		"sublime-expand-selection-to-quotes",
+		"SublimeFixMacPath",
 		"SublimeLinter",
 		"SublimeLinter-json",
 		"SublimeLinter-jsxhint",
@@ -28,5 +30,10 @@
 		"Tomorrow Color Schemes",
 		"VintageLines",
 		"Vintageous"
+	],
+	"repositories":
+	[
+		"https://github.com/kek/sublime-expand-selection-to-quotes",
+		"https://github.com/int3h/SublimeFixMacPath"
 	]
 }
