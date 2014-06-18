@@ -28,6 +28,13 @@
     "command": "show_panel",
     "args": { "panel": "find", "in_selection": true }
   },
+  // esc when autocomplete menu's visible also goes into vintageous cmd mode.
+  // Undesirable, so switch to using tab for dismissing menu
+  { "keys": ["tab"], "command": "hide_auto_complete", "context":
+    [
+      { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+    ]
+  },
   // Auto-pair code quotes
   { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$0`"}, "context":
     [
