@@ -14,9 +14,11 @@
 	"ignored_packages":
 	[
 		"Sublimerge Pro",
-		"Markdown",
-		"Vintage",
-		"Sass",
+    "Markdown",
+    "Vintage",
+    "Sass",
+    // This slows down everything so much for some reason
+    "SublimeFixMacPath",
 		"VintageLines"
 	],
 	"indent_guide_options":
