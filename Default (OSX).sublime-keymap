@@ -89,6 +89,15 @@
     "args": {"file": "Packages/User/Macros/EolSemiColon.sublime-macro"}
   },
   {
+    "keys": ["super+k", "super+s"],
+    "command": "repl_transfer_current"
+  },
+  {
+    "keys": ["super+k", "super+l"],
+    "command": "repl_transfer_current",
+    "args": {"scope": "lines"}
+  },
+  {
     "keys": ["command+shift+r"],
     "command": "browser_refresh",
     "args": {
