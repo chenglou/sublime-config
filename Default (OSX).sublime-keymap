@@ -98,6 +98,11 @@
     "args": {"scope": "lines"}
   },
   {
+    "keys": ["super+k", "super+b"],
+    "command": "repl_transfer_current",
+    "args": {"scope": "block"}
+  },
+  {
     "keys": ["command+shift+r"],
     "command": "browser_refresh",
     "args": {
@@ -111,5 +116,64 @@
     "keys": ["super+k", "super+m"],
     "command": "run_macro_file",
     "args": {"file": "Packages/User/Macros/tempMark.sublime-macro"}
+  },
+
+  // paredit time!
+  {
+    "keys": ["super+;"],
+    "command": "paredit_comment_dwim",
+    "context": [{"key": "should_paredit"}]
+  },
+  {
+    "keys": ["shift+enter"],
+    "command": "paredit_newline",
+    "context": [{"key": "should_paredit"}]
+  },
+  {
+    "keys": ["alt+shift+k"],
+    "command": "paredit_kill",
+    "context": [{"key": "should_paredit"}]
+  },
+  {
+    "keys": ["super+shift+k"],
+    "command": "paredit_kill_expression",
+    "context": [{"key": "should_paredit"}]
+  },
+  // movements
+  {
+    "keys": ["alt+l"],
+    "command": "paredit_forward",
+    "context": [{"key": "should_paredit"}]
+  },
+  {
+    "keys": ["alt+h"],
+    "command": "paredit_backward",
+    "context": [{"key": "should_paredit"}]
+  },
+  {
+    "keys": ["super+shift+0"],
+    "command": "paredit_forward_slurp_sexp",
+    "context": [{"key": "should_paredit"}]
+  },
+  {
+    "keys": ["super+shift+9"],
+    "command": "paredit_forward_barf_sexp",
+    "context": [{"key": "should_paredit"}]
+  },
+  {
+    "keys": ["super+shift+i"],
+    "command": "paredit_backward_slurp_sexp",
+    "context": [{"key": "should_paredit"}]
+  },
+  {
+    "keys": ["super+shift+o"],
+    "command": "paredit_backward_barf_sexp",
+    "context": [{"key": "should_paredit"}]
+  },
+  // paredit OSX overrode this. Re-override it
+  {
+    "keys": ["super+shift+j"],
+    "command": "expand_selection",
+    "args": {"to": "indentation"}
   }
 ]
