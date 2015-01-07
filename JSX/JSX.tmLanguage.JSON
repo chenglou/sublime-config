@@ -4,7 +4,7 @@
     "htc",
     "jsx"
   ],
-  "name": "JavaScript (JSX)",
+  "name": "JSX",
   "patterns": [
     {
       "include": "#shebang"

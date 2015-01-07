@@ -9,7 +9,7 @@
 		<string>jsx</string>
 	</array>
 	<key>name</key>
-	<string>JavaScript (JSX)</string>
+	<string>JSX</string>
 	<key>patterns</key>
 	<array>
 		<dict>
