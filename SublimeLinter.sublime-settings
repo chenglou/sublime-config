@@ -12,16 +12,16 @@
                 "args": [],
                 "excludes": []
             },
+            "eslint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "json": {
                 "@disable": false,
                 "args": [],
                 "excludes": [],
                 "strict": true
-            },
-            "jsxhint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
             }
         },
         "mark_style": "outline",
@@ -29,7 +29,7 @@
         "passive_warnings": false,
         "paths": {
             "linux": [],
-            "osx": [],
+            "osx": ["/Users/chenglou/.nvm/v0.10.36/bin/"],
             "windows": []
         },
         "python_paths": {
@@ -45,6 +45,7 @@
             "html (django)": "html",
             "html (rails)": "html",
             "html 5": "html",
+            "JavaScript (Babel)": "javascript",
             "php": "html",
             "python django": "python"
         },

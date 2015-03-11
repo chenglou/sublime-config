@@ -3,25 +3,18 @@
 	"in_process_packages":
 	[
 	],
-	"installed_dependencies":
-	[
-		"0_package_control_loader",
-		"bz2"
-	],
 	"installed_packages":
 	[
+		"AlignTab",
 		"All Autocomplete",
-		"Better CoffeeScript",
+		"Babel",
 		"BracketHighlighter",
 		"Browser Refresh",
-		"Colorcoder",
-		"ColorPicker",
 		"EasyMotion",
 		"Emmet",
 		"Enhanced Clojure",
 		"EsFormatter",
 		"Expand Selection to Function (JavaScript)",
-		"Expand Selection to Quotes",
 		"FindKeyConflicts",
 		"GitCommitMsg",
 		"HTML-CSS-JS Prettify",
@@ -29,27 +22,23 @@
 		"Markdown Preview",
 		"MarkdownEditing",
 		"MultiEditUtils",
+		"Oceanic Next Color Scheme",
 		"Package Control",
 		"PackageResourceViewer",
 		"paredit",
-		"Sass",
 		"SerializedDataConverter",
 		"Smart Match",
-		"sublime-expand-selection-to-quotes",
 		"SublimeFixMacPath",
 		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-json",
-		"SublimeLinter-jsxhint",
 		"SublimeREPL",
 		"Sublimerge Pro",
 		"TodoReview",
-		"Tomorrow Color Schemes",
-		"VintageLines",
 		"Vintageous"
 	],
 	"repositories":
 	[
-		"https://github.com/kek/sublime-expand-selection-to-quotes",
 		"https://github.com/int3h/SublimeFixMacPath"
 	]
 }

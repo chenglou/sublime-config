@@ -1,5 +1,5 @@
 {
   "cmd": ["node", "$file"],
   "selector": "source.js",
-  "path": "/usr/local/bin"
+  "path": "/Users/chenglou/.nvm/v0.10.36/bin/"
 }

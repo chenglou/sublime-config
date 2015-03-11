@@ -1,8 +1,9 @@
 {
 	"auto_complete_delay": 0,
 	"auto_complete_selector": "source",
-	"caret_style": "phase",
-	"color_scheme": "Packages/Colorcoder/Tomorrow-Night (SL) (Colorcode).tmTheme",
+	"caret_extra_width": 2,
+	"caret_style": "solid",
+	"color_scheme": "Packages/User/SublimeLinter/Oceanic Next (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
@@ -13,12 +14,15 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"sublime-expand-selection-to-quotes",
+		"SublimeLinter-jsxhint",
+		"Markdown",
+		"Better CoffeeScript",
+		"SublimeFixMacPath",
+		"Colorcoder",
 		"Sublimerge Pro",
-    "Markdown",
-    "Vintage",
-    "Sass",
-    // This slows down everything so much for some reason
-    "SublimeFixMacPath",
+		"ColorPicker",
+		"Vintage",
 		"VintageLines"
 	],
 	"indent_guide_options":
