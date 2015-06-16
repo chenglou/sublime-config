@@ -14,16 +14,17 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"sublime-expand-selection-to-quotes",
-		"SublimeLinter-jsxhint",
-		"Markdown",
-		"Better CoffeeScript",
-		"SublimeFixMacPath",
-		"Colorcoder",
 		"Sublimerge Pro",
-		"ColorPicker",
+		"SublimeFixMacPath",
+		"Better CoffeeScript",
 		"Vintage",
-		"VintageLines"
+		"sublime-expand-selection-to-quotes",
+		"Smart Match",
+		"Markdown",
+		"SublimeLinter-jsxhint",
+		"VintageLines",
+		"Colorcoder",
+		"ColorPicker"
 	],
 	"indent_guide_options":
 	[

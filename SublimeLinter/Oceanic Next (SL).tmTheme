@@ -31,7 +31,7 @@
 				<key>background</key>
 				<string>#1B2B34</string>
 				<key>caret</key>
-				<string>#c0c5ce</string>
+				<string>#ff5555</string>
 				<key>foreground</key>
 				<string>#CDD3DE</string>
 				<key>invisibles</key>
