@@ -30,7 +30,7 @@
         "paths": {
             "linux": [],
             "osx": [
-                "/Users/chenglou/.nvm/v0.10.36/bin/"
+                "/usr/local/bin/node"
             ],
             "windows": []
         },

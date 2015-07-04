@@ -1,11 +1,11 @@
 {
   "quotes": "single",
   // Use ES6 import format, when syntactically correct
-  "import": false,
+  "import": true,
   "alias": {
     "mori": "m",
   },
-  "destructuring": false,
+  "destructuring": true,
   // Use snippets when inserting require statements to allow
   // for easy variable name changing
   "snippet": true

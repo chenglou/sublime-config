@@ -18,6 +18,7 @@
 		"FindKeyConflicts",
 		"GitCommitMsg",
 		"HTML-CSS-JS Prettify",
+		"Limebox",
 		"lispindent",
 		"Markdown Preview",
 		"MarkdownEditing",
@@ -40,6 +41,7 @@
 	],
 	"repositories":
 	[
-		"https://github.com/int3h/SublimeFixMacPath"
+		"https://github.com/int3h/SublimeFixMacPath",
+		"http://home.fburl.com/~frantic/limebox/repositories.json"
 	]
 }
