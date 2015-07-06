@@ -108,8 +108,8 @@
     "args": {
       "auto_save": true,
       "delay": 0,
-      "activate_browser": false,
-      "browser_name" : "Google Chrome"
+      "activate": false,
+      "browsers" : ["chrome"]
     }
   },
   {
