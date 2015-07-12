@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[var ${1:App} = React.createClass({
+    <content><![CDATA[const ${1:App} = React.createClass({
   render: function() {
     return (
       <div>
