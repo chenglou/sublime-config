@@ -1,12 +1,12 @@
 <snippet>
     <content><![CDATA[const ${1:App} = React.createClass({
-  render: function() {
+  render() {
     return (
       <div>
         ${2}
       </div>
     );
-  }
+  },
 });]]></content>
     <tabTrigger>cc</tabTrigger>
     <scope>source.js, source.jsx</scope>
