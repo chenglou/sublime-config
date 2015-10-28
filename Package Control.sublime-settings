@@ -1,5 +1,6 @@
 {
 	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -11,6 +12,7 @@
 		"Babel Snippets",
 		"BracketHighlighter",
 		"Browser Refresh",
+		"Dotfiles Syntax Highlighting",
 		"EasyMotion",
 		"Emmet",
 		"Enhanced Clojure",
@@ -18,9 +20,10 @@
 		"Expand Selection to Function (JavaScript)",
 		"FindKeyConflicts",
 		"GitCommitMsg",
+		"GitGutter",
 		"HTML-CSS-JS Prettify",
-		"Limebox",
 		"lispindent",
+		"Local History",
 		"Markdown Preview",
 		"MarkdownEditing",
 		"MultiEditUtils",
